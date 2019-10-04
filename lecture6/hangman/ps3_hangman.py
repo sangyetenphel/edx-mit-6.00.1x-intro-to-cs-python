@@ -75,6 +75,7 @@ def getGuessedWord(secretWord, lettersGuessed):
 ##            guessed[i] = secretWord[i]
 ##    
 ##    return letter_guessed.join(guessed)
+    
     guessed = ''
     for char in secretWord:
         if char in lettersGuessed:
