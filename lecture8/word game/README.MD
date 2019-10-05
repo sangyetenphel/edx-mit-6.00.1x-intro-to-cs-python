@@ -26,7 +26,7 @@ As another example, if n=7 and you make the word 'waybill' on the first try, it 
 
 ## Sample Output
 Here is how the game output will look!
-'''
+```
 Loading word list from file...
    83667 words loaded.
 Enter n to deal a new hand, r to replay the last hand, or e to end game: n
@@ -66,5 +66,4 @@ Enter word, or a "." to indicate that you are finished: inertia
 Run out of letters. Total score: 99 points.
 
 Enter n to deal a new hand, r to replay the last hand, or e to end game: e
-'''
-    
+```
