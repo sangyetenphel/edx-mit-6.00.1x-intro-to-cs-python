@@ -259,7 +259,7 @@ class CiphertextMessage(Message):
         valid_words_count = 0
         
         for i in range(26):
-            temp_count = 0
+            temp_count = 0 # initlialized this counter inside the loop to reset it for every shift fixed the output mismatch
             new_shift = self.apply_shift(i)
             words = new_shift.split(" ")
             for word in words:
