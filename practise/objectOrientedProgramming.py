@@ -26,7 +26,7 @@ class TA(MITxStaff):
         MITxStaff.__init__(self, firstName, lastName)
 
     def toString(self):
-        return "{} {} has an awesomeness level of {}".format(self.firstName, self.lastName, self.awesomenessLevel)
+        return "{} {} has an awesomeness level of {}".format(self.firstName, self.lastName, self.awesomenessLevel) # Use of placeholders i.e. {}
 
 Nitish = TA("Nitish", "Mittal", 100)
 Jing = TA("Jing", "Ma", 9001)
